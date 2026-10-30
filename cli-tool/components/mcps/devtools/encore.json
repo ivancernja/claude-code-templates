@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "encore": {
+      "description": "Encore's local MCP server gives the agent context on an Encore app running on your machine: services, APIs, databases, traces and infrastructure. Requires the Encore CLI. Replace your-app-id with the app ID printed by `encore mcp start`.",
+      "command": "encore",
+      "args": ["mcp", "run", "--app=your-app-id"]
+    }
+  }
+}
